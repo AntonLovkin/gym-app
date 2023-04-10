@@ -4,7 +4,7 @@ import Pagination from '@mui/material/Pagination';
 
 import ExerciseCard from './ExerciseCard';
 
-const Exercises = ({ exercises, exercisesPerPage, title }) => {
+const Exercises = ({ exercises=[], exercisesPerPage, title }) => {
   const [currentPage, setCurrentPage] = useState(1);
   // const exercisesPerPage = 9;
 
